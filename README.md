@@ -18,18 +18,18 @@
 - select best model and optimize
 
 # Reinforcement Learning Working Note
-##Reference
-###https://mpatacchiola.github.io/blog/
-###https://github.com/dennybritz/reinforcement-learning
-###https://github.com/reinforceio/tensorforce
-###https://github.com/ShangtongZhang/reinforcement-learning-an-introduction
-###Book Reinforcement Learning: An Introduction
+## Reference
+### https://mpatacchiola.github.io/blog/
+### https://github.com/dennybritz/reinforcement-learning
+### https://github.com/reinforceio/tensorforce
+### https://github.com/ShangtongZhang/reinforcement-learning-an-introduction
+### Book Reinforcement Learning: An Introduction
 
-##Repository
-###git@github.com:psw0523/M2Trader.git
+## Repository
+### git@github.com:psw0523/M2Trader.git
 
-##2018.01.16
-###마눌님이 작성한 code commit함
+## 2018.01.16
+### 마눌님이 작성한 code commit함
 <pre><code>
 $ git clone git@github.com:psw0523/M2Trader.git
 $ git add envs/
@@ -37,12 +37,13 @@ $ git commit
 $ git push origin master:master
 </code></pre>
 
-###https://github.com/dennybritz/reinforcement-learning
 여기 있는 코드를 우선 쭉 살펴본다.
+### https://github.com/dennybritz/reinforcement-learning
 
-###Introduction
-http://incompleteideas.net/book/bookdraft2018jan1.pdf
+### Introduction
+
 1장을 보고 아래 사이트의 코드를 보고 돌려본다.
+http://incompleteideas.net/book/bookdraft2018jan1.pdf
 https://github.com/ShangtongZhang/reinforcement-learning-an-introduction/tree/master/chapter01
 
 http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf
