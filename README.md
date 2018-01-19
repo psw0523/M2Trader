@@ -57,13 +57,13 @@ learning how to map situations and actions so as to maximize reward signal.
 trial-and-error search and delayed reward.  
 problem과solution method는 다른 관점이다.  
 
--define problem
-using ideas from dynamical systems theory --> Markov Decision Process.
+define problem  
+using ideas from dynamical systems theory --> Markov Decision Process.  
 - Learnig Agent
 - State of its environment
-- Actions
-Third maching learning paradigm vs supervised, unsupervised
-Trade off between exploration and exploitation
+- Actions  
+Third maching learning paradigm vs supervised, unsupervised  
+Trade off between exploration and exploitation  
 - exploit: 기존에 reward를 주는 action을 선택하는 것
 - exploration: 더 나은 보상을 얻기 위하여 다른 action을 선택하는 것
 
