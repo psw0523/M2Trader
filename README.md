@@ -48,3 +48,22 @@ https://github.com/ShangtongZhang/reinforcement-learning-an-introduction/tree/ma
 
 http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf
 https://gym.openai.com/docs
+
+#### Reinforcement Learning: An Introduction Chapter 1. Introduction
+Learning from interaction
+Computational approach to learning from interaction.
+##### 1.1 Reinforcement Learning
+learning how to map situations and actions so as to maximize reward signal.
+trial-and-error search and delayed reward.
+problem과solution method는 다른 관점이다.
+
+define problem
+using ideas from dynamical systems theory --> Markov Decision Process.
+- Learnig Agent
+- State of its environment
+- Actions
+Third maching learning paradigm vs supervised, unsupervised
+Trade off between exploration and exploitation
+- exploit: 기존에 reward를 주는 action을 선택하는 것
+- exploration: 더 나은 보상을 얻기 위하여 다른 action을 선택하는 것
+
