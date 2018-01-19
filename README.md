@@ -53,11 +53,11 @@ https://gym.openai.com/docs
 Learning from interaction
 Computational approach to learning from interaction.
 ##### 1.1 Reinforcement Learning
-learning how to map situations and actions so as to maximize reward signal.
-trial-and-error search and delayed reward.
-problem과solution method는 다른 관점이다.
+learning how to map situations and actions so as to maximize reward signal.  
+trial-and-error search and delayed reward.  
+problem과solution method는 다른 관점이다.  
 
-define problem
+-define problem
 using ideas from dynamical systems theory --> Markov Decision Process.
 - Learnig Agent
 - State of its environment
