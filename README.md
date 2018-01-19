@@ -37,31 +37,28 @@ $ git commit
 $ git push origin master:master
 </code></pre>
 
-여기 있는 코드를 우선 쭉 살펴본다.
-### https://github.com/dennybritz/reinforcement-learning
+Reference Site
+- http://incompleteideas.net/book/bookdraft2018jan1.pdf
+- https://github.com/dennybritz/reinforcement-learning
+- https://github.com/ShangtongZhang/reinforcement-learning-an-introduction/tree/master/chapter01
+- http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf
+- https://gym.openai.com/docs
 
-### Introduction
-
-1장을 보고 아래 사이트의 코드를 보고 돌려본다.
-http://incompleteideas.net/book/bookdraft2018jan1.pdf
-https://github.com/ShangtongZhang/reinforcement-learning-an-introduction/tree/master/chapter01
-
-http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf
-https://gym.openai.com/docs
-
-#### Reinforcement Learning: An Introduction Chapter 1. Introduction
+## Reinforcement Learning: An Introduction Chapter 1. Introduction
 Learning from interaction
 Computational approach to learning from interaction.
-##### 1.1 Reinforcement Learning
+
+### 1.1 Reinforcement Learning
 learning how to map situations and actions so as to maximize reward signal.  
 trial-and-error search and delayed reward.  
 problem과solution method는 다른 관점이다.  
 
 define problem  
-using ideas from dynamical systems theory --> Markov Decision Process.  
+using ideas from dynamical systems theory --> Markov Decision Process.
 - Learnig Agent
 - State of its environment
 - Actions  
+
 Third maching learning paradigm vs supervised, unsupervised  
 Trade off between exploration and exploitation  
 - exploit: 기존에 reward를 주는 action을 선택하는 것
