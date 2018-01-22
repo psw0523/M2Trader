@@ -45,7 +45,6 @@ Reference Site
 - https://gym.openai.com/docs
 
 ## Reinforcement Learning: An Introduction Chapter 1. Introduction
-Learning from interaction
 Computational approach to learning from interaction.
 
 ### 1.1 Reinforcement Learning
@@ -64,3 +63,41 @@ Trade off between exploration and exploitation
 - exploit: 기존에 reward를 주는 action을 선택하는 것
 - exploration: 더 나은 보상을 얻기 위하여 다른 action을 선택하는 것
 
+### 1.2 Examples
+
+### 1.3 Elements of Reinforcement Learnig
+4 main subelements  
+*policy, reward signal, value function, model of environment*  
+
+#### policy
+- mapping from states to actions
+- maybe simple function or lookup table
+- maybe stochastic
+
+#### reward signal
+- environment sends to agent the number called *reward* at each step
+- primary base for altering the *policy*
+- may be stochastic functions of state and actions taken
+
+#### value function
+- specifies what is good in the long run
+- the value of state is total amount of reward an agent can expect to accumulate over the future, starting from that state
+- state might always yield a low immediate reward but still have a high value becuase followed states yield high rewards
+- Action choices are made based on value judgements
+- Reward is given directly by environment but value must be estimated
+- Value estimation function is most important thing about reinforcement learning
+
+#### model of the environment
+- mimics the behavior of the environment
+- Given state, give next state and next reward
+- used for planning
+- model-based methods vs model-free methods
+
+### 1.4 Limitations and Scope
+- State is from MDP
+- Don't focus state construction.
+- Focus fully on decision-making issues
+- Structured around estimating value functions
+- Don't describe evolutionary methods(genetic algorithm)
+
+### 1.5 An Extended Example; Tic-Tac-Toe
