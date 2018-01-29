@@ -101,3 +101,8 @@ Trade off between exploration and exploitation
 - Don't describe evolutionary methods(genetic algorithm)
 
 ### 1.5 An Extended Example; Tic-Tac-Toe
+- Need All States Table: 3x3 matrix
+- Need State Value Table
+- Need algorithm for taking next action given current state
+- Need algorithm for updating State Value Table by reward
+- TicTacToe.py
