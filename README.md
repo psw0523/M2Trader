@@ -44,7 +44,7 @@ Reference Site
 - http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching_files/intro_RL.pdf
 - https://gym.openai.com/docs
 
-## Reinforcement Learning: An Introduction Chapter 1. Introduction
+## Chapter 1. Introduction
 Computational approach to learning from interaction.
 
 ### 1.1 Reinforcement Learning
